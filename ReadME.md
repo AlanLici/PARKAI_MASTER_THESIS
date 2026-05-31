@@ -1,4 +1,4 @@
-# PARK-AI / Alan_Sondre
+# Fall Risk Prediction in Parkinson’s Disease from Longitudinal ParkWest Data Using Cox Regression and LSTM Networks
 
 Master's thesis project: prognostic feature importance and temporal fall prediction in Parkinson's disease, using the **ParkWest** cohort (UiS / SUS) and the **PPMI** cohort for external validation.
 
