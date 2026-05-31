@@ -1,0 +1,14 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['stress_tot', 'fss2', 'stress1', 'fss3', 'fss_sum', 'fss_mean', 'fss5', 'stress7']
+Pool (12): ['stress4', 'stress15', 'stress2', 'fss4', 'stress13', 'fss6', 'stress10', 'stress9', 'fss9', 'stress12', 'stress8', 'fss7']
+
+[iter 0] VIF: fss_mean=inf, fss_sum=inf, fss3=3.97, fss5=3.47, fss2=3.46, stress_tot=2.32, stress1=2.00, stress7=1.56
+[iter 0] Removed fss_mean (VIF=inf), replaced with stress4
+[iter 1] VIF: fss_sum=7.37, fss3=3.97, fss2=3.51, fss5=3.48, stress_tot=2.72, stress4=2.37, stress1=2.28, stress7=1.59
+[iter 1] Removed fss_sum (VIF=7.37), replaced with stress15
+[iter 2] VIF: stress_tot=3.90, fss3=3.39, fss2=2.82, stress4=2.46, stress1=2.28, fss5=2.06, stress15=1.71, stress7=1.63
+[iter 2] All VIF < 6.0. Done.
+
+Final features (8): ['stress_tot', 'fss2', 'stress1', 'fss3', 'fss5', 'stress7', 'stress4', 'stress15']

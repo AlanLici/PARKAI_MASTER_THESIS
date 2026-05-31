@@ -1,0 +1,40 @@
+========================================================================
+PPMI LITERATURE-PIPELINE VALIDATION  -  CROSS-COHORT FEATURE MAPPING
+========================================================================
+
+Variant A: ParkWest literature-pipeline final features are translated
+  to PPMI columns; a multivariable Cox time-varying model is fit on
+  PPMI without re-running univariate selection, correlation dedup,
+  or VIF refinement.
+
+Source (ParkWest): litterature_features_baseline/results/multivariable_cox_results.csv
+
+========================================================================
+PER-FEATURE DECISIONS
+========================================================================
+
+  [confirmed]  PIGD                    ->  PIGD
+             PIGD composite computed in both cohorts (different items, same conceptual score).
+
+  [confirmed]  UPO_part2_tot           ->  NP2PTOT
+             UPDRS Part II total (ParkWest) = NP2PTOT (Part II total, PPMI). Both include the event items (UPO13/UPO14 ~ NP2WALK/NP2FREZ); the counting-process construction prevents temporal contamination.
+
+  [confirmed]  UPO27                   ->  NP3RISNG
+             ParkWest UPO27 = 'UPO arising from chair' (metadata). PPMI NP3RISNG = arising from chair (MDS-UPDRS Part III).
+
+  [ dropped ]  PHYFUN                  ->  (dropped, no PPMI equivalent)
+             ParkWest PHYFUN = 'SF36-RAND Physical functioning'. PPMI does not ship the SF-36; the only PPMI physical-function measure is MSEADLG, which is already used for SEON (Schwab & England — a different concept). Dropped.
+
+  [confirmed]  SEON                    ->  MSEADLG
+             Schwab & England ADL (ON state). MSEADLG is the PPMI Modified S&E score; inverted via INVERT_FEATURES so higher = worse.
+
+  [ dropped ]  UPO15                   ->  (dropped, no PPMI equivalent)
+             ParkWest UPO15 = 'UPO walking ADL'. The closest MDS-UPDRS item is NP2WALK, which combines walking and falling and is the PPMI event-definition column. Using it as a predictor would be circular. Dropped (no clean PPMI proxy).
+
+  [confirmed]  UPO_part3_tot           ->  NP3TOT
+             UPDRS Part III total = MDS-UPDRS Part III total (motor examination).
+
+========================================================================
+FITTED PPMI FEATURES : 5
+DROPPED              : 2
+========================================================================

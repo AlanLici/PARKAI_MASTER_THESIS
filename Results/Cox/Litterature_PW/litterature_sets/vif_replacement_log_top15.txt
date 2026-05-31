@@ -1,0 +1,43 @@
+VIF REPLACEMENT LOG  -  target size = 15
+============================================================
+
+Initial top-15 (by p-value):
+   1. UPO27
+   2. UPO15
+   3. SEON
+   4. UPO_part2_tot
+   5. UPO_part3_tot
+   6. PIGD
+   7. HYON
+   8. MCI_15SD_MDScriteria
+   9. PHYFUN
+  10. sf36pf
+  11. IQCODE_mean
+  12. STROOPW
+  13. sf36pcs
+  14. URINDYS
+  15. age_at_visit
+
+Replacement pool (15): ['fss2', 'STROOPC', 'fss_sum', 'fss5', 'MMSE_tot', 'UPO_part4_tot', 'CONSTIPAT', 'madrs10', 'pdss_tot', 'madrs_tot', 'PressStand_Dia', 'pdss02', 'npi8hi', 'epwo6', 'disease_duration_years']
+
+[iter 0] VIF: PHYFUN=75.72, sf36pf=74.63, sf36pcs=2.79, UPO_part3_tot=2.17, SEON=2.15, HYON=2.10, UPO15=1.83, STROOPW=1.81, UPO27=1.72, MCI_15SD_MDScriteria=1.54, UPO_part2_tot=1.48, age_at_visit=1.41, PIGD=1.38, IQCODE_mean=1.38, URINDYS=1.13
+[iter 0] removed PHYFUN (VIF=75.72), replaced with fss2
+[iter 1] VIF: sf36pf=3.13, sf36pcs=2.98, UPO_part3_tot=2.14, SEON=2.07, HYON=2.06, UPO15=1.84, UPO27=1.73, STROOPW=1.73, UPO_part2_tot=1.52, MCI_15SD_MDScriteria=1.43, age_at_visit=1.40, PIGD=1.38, fss2=1.34, IQCODE_mean=1.31, URINDYS=1.10
+[iter 1] all VIF < 6.0 -- done
+
+Final features (15):
+   1. UPO27
+   2. UPO15
+   3. SEON
+   4. UPO_part2_tot
+   5. UPO_part3_tot
+   6. PIGD
+   7. HYON
+   8. MCI_15SD_MDScriteria
+   9. sf36pf
+  10. IQCODE_mean
+  11. STROOPW
+  12. sf36pcs
+  13. URINDYS
+  14. age_at_visit
+  15. fss2

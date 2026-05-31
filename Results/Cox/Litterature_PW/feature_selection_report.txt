@@ -1,0 +1,62 @@
+========================================================================
+LITERATURE-BASED FEATURES -- SELECTION REPORT
+========================================================================
+
+Initial literature features     : 30
+Missing from data               : 0
+Excluded by V9 guard            : 0
+Available for screening         : 30
+
+  Converged                     : 30
+  Significant (p < 0.05)        : 23
+  Selected for multivariable    : 8
+
+========================================================================
+UNIVARIATE RESULTS (all literature features)
+========================================================================
+
+  UPO27                           HR=1.494  p=3.8432e-18  *
+  UPO15                           HR=1.568  p=3.0046e-15  *
+  SEON                            HR=0.670  p=2.7951e-14  *
+  UPO_part2_tot                   HR=1.500  p=6.7385e-13  *
+  UPO_part3_tot                   HR=1.586  p=1.3429e-12  *
+  PIGD                            HR=0.526  p=1.3651e-12  *
+  HYON                            HR=1.459  p=2.1646e-11  *
+  MCI_15SD_MDScriteria            HR=1.385  p=1.0471e-07  *
+  PHYFUN                          HR=0.704  p=2.1302e-07  *
+  sf36pf                          HR=0.713  p=3.0880e-07  *
+  IQCODE_mean                     HR=1.295  p=1.1196e-05  *
+  STROOPW                         HR=0.727  p=1.8251e-05  *
+  sf36pcs                         HR=0.750  p=8.2633e-05  *
+  URINDYS                         HR=1.312  p=8.8916e-05  *
+  age_at_visit                    HR=1.375  p=9.1571e-05  *
+  fss2                            HR=1.384  p=1.1962e-04  *
+  STROOPC                         HR=0.762  p=2.9789e-04  *
+  fss_sum                         HR=1.326  p=4.0970e-04  *
+  fss5                            HR=1.302  p=5.2011e-04  *
+  MMSE_tot                        HR=0.815  p=1.0395e-03  *
+  UPO_part4_tot                   HR=1.227  p=2.7387e-03  *
+  CONSTIPAT                       HR=1.201  p=8.9353e-03  *
+  madrs10                         HR=1.144  p=1.1383e-02  *
+  pdss_tot                        HR=0.883  p=8.6524e-02   
+  madrs_tot                       HR=1.126  p=9.1595e-02   
+  PressStand_Dia                  HR=0.873  p=9.9689e-02   
+  pdss02                          HR=0.912  p=1.7937e-01   
+  npi8hi                          HR=1.073  p=1.9700e-01   
+  epwo6                           HR=1.060  p=3.9762e-01   
+  disease_duration_years          HR=0.941  p=6.2528e-01   
+
+========================================================================
+SELECTED FOR MULTIVARIABLE MODEL
+========================================================================
+
+   1. UPO27                           HR=1.494  p=3.8432e-18
+   2. UPO15                           HR=1.568  p=3.0046e-15
+   3. SEON                            HR=0.670  p=2.7951e-14
+   4. UPO_part2_tot                   HR=1.500  p=6.7385e-13
+   5. UPO_part3_tot                   HR=1.586  p=1.3429e-12
+   6. PIGD                            HR=0.526  p=1.3651e-12
+   7. MCI_15SD_MDScriteria            HR=1.385  p=1.0471e-07
+   8. PHYFUN                          HR=0.704  p=2.1302e-07
+
+========================================================================

@@ -1,0 +1,12 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['UPO_part1_tot', 'UPO1', 'UPO4', 'UPO2', 'npi7hi', 'npi_sum_HxI', 'npi_sum_Bel', 'npi2hi']
+Pool (12): ['UPO3', 'UPO42', 'npi10hi', 'npi12hi', 'npi1hi', 'npi4hi', 'npi5hi', 'npi8hi', 'UPO41', 'npi3hi', 'npi6hi', 'npi11hi']
+
+[iter 0] VIF: UPO_part1_tot=9.39, npi_sum_HxI=4.74, UPO4=4.43, npi_sum_Bel=3.60, UPO1=2.39, UPO2=2.20, npi7hi=2.15, npi2hi=1.21
+[iter 0] Removed UPO_part1_tot (VIF=9.39), replaced with UPO3
+[iter 1] VIF: npi_sum_HxI=4.74, npi_sum_Bel=3.60, npi7hi=2.15, UPO4=1.31, UPO2=1.22, npi2hi=1.21, UPO1=1.20, UPO3=1.20
+[iter 1] All VIF < 6.0. Done.
+
+Final features (8): ['UPO1', 'UPO4', 'UPO2', 'npi7hi', 'npi_sum_HxI', 'npi_sum_Bel', 'npi2hi', 'UPO3']

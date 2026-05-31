@@ -1,0 +1,24 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['PHYFUN', 'hl3g', 'sf36pf', 'TPF', 'hl3b', 'hl3f', 'hl3d', 'TPHC']
+Pool (12): ['PHC', 'PPHC', 'sf36pcs', 'hl4b', 'GGHC', 'GHC', 'hl3c', 'TGHC', 'hl3h', 'hl4a', 'hl11d', 'hl3a']
+
+[iter 0] VIF: PHYFUN=1166.88, TPF=984.30, sf36pf=100.04, hl3d=2.73, TPHC=2.59, hl3g=2.51, hl3b=2.43, hl3f=2.16
+[iter 0] Removed PHYFUN (VIF=1166.88), replaced with PHC
+[iter 1] VIF: TPHC=inf, PHC=inf, TPF=100.59, sf36pf=90.33, hl3g=2.43, hl3d=2.29, hl3b=2.18, hl3f=1.98
+[iter 1] Removed TPHC (VIF=inf), replaced with PPHC
+[iter 2] VIF: PPHC=975.35, PHC=973.51, TPF=100.61, sf36pf=90.82, hl3g=2.56, hl3d=2.33, hl3b=2.28, hl3f=2.02
+[iter 2] Removed PPHC (VIF=975.35), replaced with sf36pcs
+[iter 3] VIF: TPF=100.59, sf36pf=90.64, sf36pcs=8.94, PHC=8.09, hl3g=2.43, hl3d=2.29, hl3b=2.19, hl3f=1.99
+[iter 3] Removed TPF (VIF=100.59), replaced with hl4b
+[iter 4] VIF: PHC=9.98, sf36pcs=9.02, sf36pf=7.90, hl3g=2.44, hl3b=2.22, hl3d=2.08, hl4b=1.90, hl3f=1.71
+[iter 4] Removed PHC (VIF=9.98), replaced with GGHC
+[iter 5] VIF: sf36pf=8.11, sf36pcs=3.71, GGHC=2.51, hl3g=2.43, hl3b=2.23, hl3d=2.08, hl4b=1.75, hl3f=1.72
+[iter 5] Removed sf36pf (VIF=8.11), replaced with GHC
+[iter 6] VIF: GHC=1144.84, GGHC=1142.52, sf36pcs=3.02, hl3g=1.89, hl3b=1.88, hl3d=1.66, hl4b=1.60, hl3f=1.50
+[iter 6] Removed GHC (VIF=1144.84), replaced with hl3c
+[iter 7] VIF: sf36pcs=3.20, GGHC=2.46, hl3b=1.94, hl3g=1.89, hl4b=1.69, hl3d=1.68, hl3c=1.68, hl3f=1.49
+[iter 7] All VIF < 6.0. Done.
+
+Final features (8): ['hl3g', 'hl3b', 'hl3f', 'hl3d', 'sf36pcs', 'hl4b', 'GGHC', 'hl3c']

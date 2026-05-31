@@ -1,0 +1,12 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['HAD4', 'HAD13', 'HAD_sumAD', 'HAD7', 'HAD_sumD', 'madrs10', 'HAD_sumA', 'HAD9']
+Pool (12): ['HAD8', 'madrs7', 'madrs_tot', 'HAD2', 'HAD1', 'madrs9', 'HAD3', 'HAD10', 'HAD14', 'HAD6', 'HAD11', 'madrs3']
+
+[iter 0] VIF: HAD_sumAD=180.55, HAD_sumD=67.21, HAD_sumA=50.86, HAD9=2.77, HAD4=2.21, HAD13=2.19, HAD7=2.18, madrs10=1.09
+[iter 0] Removed HAD_sumAD (VIF=180.55), replaced with HAD8
+[iter 1] VIF: HAD_sumA=4.44, HAD_sumD=2.59, HAD13=2.16, HAD9=2.14, HAD7=2.01, HAD4=1.94, HAD8=1.46, madrs10=1.10
+[iter 1] All VIF < 6.0. Done.
+
+Final features (8): ['HAD4', 'HAD13', 'HAD7', 'HAD_sumD', 'madrs10', 'HAD_sumA', 'HAD9', 'HAD8']

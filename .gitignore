@@ -1,0 +1,14 @@
+# Confidential cohort data — never commit (ParkWest confidentiality agreement,
+# PPMI data-use terms, GDPR). Partner obtains their own local copy.
+Data/
+
+# Generated LSTM outputs
+val_long_processed.csv
+visit_level_long_raw.csv
+train_long_processed.scv
+test_long_processed.csv
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+*.pyo

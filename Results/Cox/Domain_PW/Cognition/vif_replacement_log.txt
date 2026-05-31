@@ -1,0 +1,12 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['MCI_15SD_MDScriteria', 'iqc12', 'PDD', 'iqc7', 'iqc14', 'iqc_tot', 'IQCODE_mean', 'STROOPW']
+Pool (12): ['iqc23', 'iqc24', 'STROOPC', 'iqc25', 'iqc13', 'iqc26', 'CFluency', 'iqc8', 'MMSE_14', 'CVLTII_DF', 'MMSE_tot', 'iqc6']
+
+[iter 0] VIF: iqc_tot=25159897.16, IQCODE_mean=25159150.18, iqc14=2.16, MCI_15SD_MDScriteria=2.13, PDD=1.86, iqc12=1.58, STROOPW=1.40, iqc7=1.10
+[iter 0] Removed iqc_tot (VIF=25159897.16), replaced with iqc23
+[iter 1] VIF: IQCODE_mean=3.03, iqc14=2.18, MCI_15SD_MDScriteria=2.14, PDD=2.00, iqc23=1.65, iqc12=1.58, STROOPW=1.40, iqc7=1.10
+[iter 1] All VIF < 6.0. Done.
+
+Final features (8): ['MCI_15SD_MDScriteria', 'iqc12', 'PDD', 'iqc7', 'iqc14', 'IQCODE_mean', 'STROOPW', 'iqc23']

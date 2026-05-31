@@ -1,0 +1,55 @@
+VIF REPLACEMENT LOG  -  target size = 20
+============================================================
+
+Initial top-20 (by p-value):
+   1. UPO27
+   2. UPO15
+   3. SEON
+   4. UPO_part2_tot
+   5. UPO_part3_tot
+   6. PIGD
+   7. HYON
+   8. MCI_15SD_MDScriteria
+   9. PHYFUN
+  10. sf36pf
+  11. IQCODE_mean
+  12. STROOPW
+  13. sf36pcs
+  14. URINDYS
+  15. age_at_visit
+  16. fss2
+  17. STROOPC
+  18. fss_sum
+  19. fss5
+  20. MMSE_tot
+
+Replacement pool (10): ['UPO_part4_tot', 'CONSTIPAT', 'madrs10', 'pdss_tot', 'madrs_tot', 'PressStand_Dia', 'pdss02', 'npi8hi', 'epwo6', 'disease_duration_years']
+
+[iter 0] VIF: PHYFUN=76.17, sf36pf=75.61, fss_sum=6.41, fss5=3.73, STROOPC=3.71, STROOPW=3.27, sf36pcs=3.03, fss2=2.99, UPO_part3_tot=2.18, SEON=2.15, HYON=2.09, UPO15=1.88, MMSE_tot=1.84, MCI_15SD_MDScriteria=1.75, UPO27=1.74, UPO_part2_tot=1.56, age_at_visit=1.51, PIGD=1.38, IQCODE_mean=1.34, URINDYS=1.11
+[iter 0] removed PHYFUN (VIF=76.17), replaced with UPO_part4_tot
+[iter 1] VIF: fss_sum=6.42, fss5=3.74, STROOPC=3.72, STROOPW=3.27, sf36pf=3.19, sf36pcs=3.02, fss2=2.97, UPO_part3_tot=2.20, SEON=2.15, HYON=2.10, UPO15=1.88, MMSE_tot=1.85, MCI_15SD_MDScriteria=1.75, UPO27=1.74, UPO_part2_tot=1.55, age_at_visit=1.52, PIGD=1.37, IQCODE_mean=1.34, UPO_part4_tot=1.19, URINDYS=1.10
+[iter 1] removed fss_sum (VIF=6.42), replaced with CONSTIPAT
+[iter 2] VIF: STROOPC=3.71, STROOPW=3.30, sf36pf=3.20, sf36pcs=3.03, UPO_part3_tot=2.20, SEON=2.15, HYON=2.10, UPO15=1.86, MMSE_tot=1.84, fss5=1.83, fss2=1.80, MCI_15SD_MDScriteria=1.74, UPO27=1.74, age_at_visit=1.61, UPO_part2_tot=1.57, PIGD=1.38, IQCODE_mean=1.32, CONSTIPAT=1.24, UPO_part4_tot=1.19, URINDYS=1.10
+[iter 2] all VIF < 6.0 -- done
+
+Final features (20):
+   1. UPO27
+   2. UPO15
+   3. SEON
+   4. UPO_part2_tot
+   5. UPO_part3_tot
+   6. PIGD
+   7. HYON
+   8. MCI_15SD_MDScriteria
+   9. sf36pf
+  10. IQCODE_mean
+  11. STROOPW
+  12. sf36pcs
+  13. URINDYS
+  14. age_at_visit
+  15. fss2
+  16. STROOPC
+  17. fss5
+  18. MMSE_tot
+  19. UPO_part4_tot
+  20. CONSTIPAT

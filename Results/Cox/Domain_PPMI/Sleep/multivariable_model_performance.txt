@@ -1,0 +1,43 @@
+========================================================================
+MODEL PERFORMANCE EVALUATION
+========================================================================
+
+  Concordance Index (C-index) : 0.6375
+  Partial AIC                 : 175.78
+  Log-likelihood (model)      : -83.8884
+  LR test chi-sq (df=4)      : 167.78  (p = 3.14e-35)
+
+  Subjects                    : 41
+  Intervals (person-periods)  : 199
+  Events                      : 30
+  Covariates                  : 4
+  Events per Variable (EPV)   : 7.5
+
+========================================================================
+INTERPRETATION GUIDE
+========================================================================
+
+  C-index:
+    0.50       = random (no discrimination)
+    0.60-0.70  = poor discrimination
+    0.70-0.80  = acceptable discrimination
+    0.80-0.90  = excellent discrimination
+    > 0.90     = outstanding (possibly overfit)
+
+  Events per Variable (EPV):
+    >= 10-20   = adequate (rule of thumb)
+    Current    = 7.5  [!] LOW -- coefficients may be unstable
+
+  If C-index ~= 0.50:
+    The model has NO predictive value.  Feature importance rankings
+    from this model should NOT be interpreted.
+
+  If C-index < 0.60:
+    The model discriminates poorly.  Feature rankings should be
+    treated with caution.
+
+  If C-index >= 0.70:
+    The model has acceptable discrimination.  Feature importance
+    rankings (HR, p-values) can be meaningfully interpreted.
+
+========================================================================

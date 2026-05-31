@@ -1,0 +1,10 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['URINDYS', 'Lightheadedness', 'CONSTIPAT', 'SWEAT', 'PressStand_Dia', 'OLFACTOR', 'PressStand_Sys', 'PressHori_Sys']
+Pool (1): ['PressHori_Dia']
+
+[iter 0] VIF: PressStand_Sys=2.77, PressHori_Sys=2.22, PressStand_Dia=1.66, Lightheadedness=1.14, CONSTIPAT=1.10, OLFACTOR=1.02, SWEAT=1.01, URINDYS=1.01
+[iter 0] All VIF < 6.0. Done.
+
+Final features (8): ['URINDYS', 'Lightheadedness', 'CONSTIPAT', 'SWEAT', 'PressStand_Dia', 'OLFACTOR', 'PressStand_Sys', 'PressHori_Sys']

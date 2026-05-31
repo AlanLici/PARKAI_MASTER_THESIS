@@ -1,0 +1,42 @@
+========================================================================
+PPMI TOP-8 VALIDATION  -  CROSS-COHORT FEATURE MAPPING
+========================================================================
+
+Variant A: ParkWest top-8 features are translated to PPMI columns,
+  then a multivariable Cox time-varying model is fit on PPMI without
+  re-running univariate selection, correlation dedup, or VIF refinement.
+
+Source (ParkWest): top8_univariate/results/multivariable_cox_results.csv
+
+========================================================================
+PER-FEATURE DECISIONS
+========================================================================
+
+  [ dropped ]  PIGD_nevner             ->  (dropped, no PPMI equivalent)
+             ParkWest-internal 'PIGD denominator' (count of non-NaN PIGD items); no PPMI equivalent.
+
+  [confirmed]  PIGD                    ->  PIGD
+             PIGD composite computed in both cohorts (different items, same conceptual score).
+
+  [confirmed]  UPO11                   ->  NP2HYGN
+             ParkWest UPO11 = 'UPO hygiene ADL' (metadata). PPMI NP2HYGN = hygiene (MDS-UPDRS Part II).
+
+  [confirmed]  UPO_part2_ON_tot        ->  NP2PTOT
+             UPDRS Part II total (ON state, ParkWest) = NP2PTOT (Part II total, PPMI). Both include the event items.
+
+  [ derived ]  UPO_part1_tot           ->  NP1RTOT_plus_NP1PTOT
+             MDS-UPDRS Part I is split between rater (NP1RTOT) and patient (NP1PTOT) sections; summed to form a full Part I total comparable to ParkWest UPO_part1_tot.
+
+  [confirmed]  SEON                    ->  MSEADLG
+             Schwab & England ADL (ON state). MSEADLG is the PPMI Modified S&E score; inverted via INVERT_FEATURES.
+
+  [confirmed]  UPO_part3_tot           ->  NP3TOT
+             UPDRS Part III total = MDS-UPDRS Part III total (motor examination).
+
+  [confirmed]  UPO10                   ->  NP2DRES
+             ParkWest UPO10 = 'UPO dressing ADL' (metadata). PPMI NP2DRES = dressing (MDS-UPDRS Part II).
+
+========================================================================
+FITTED PPMI FEATURES : 7
+DROPPED              : 1
+========================================================================

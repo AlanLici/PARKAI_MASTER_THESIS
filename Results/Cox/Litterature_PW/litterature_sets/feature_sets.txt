@@ -1,0 +1,66 @@
+========================================================================
+LITERATURE FEATURE SETS  -  VIF-REFINED TOP 20 / 15 / 10
+========================================================================
+
+Initial pool : 30 literature features (V9-passed, converged, |coef|<=3.0, ranked by univariate p-value)
+Selection    : top-N by p-value, then iterative VIF replacement
+VIF threshold: 6.0  (drop highest-VIF feature, swap in next-best from pool, repeat until all VIF < threshold)
+
+------------------------------------------------------------------------
+TOP-20  (final n = 20)
+------------------------------------------------------------------------
+   1. UPO27                         HR=1.494  p=3.8432e-18  VIF=1.74
+   2. UPO15                         HR=1.568  p=3.0046e-15  VIF=1.86
+   3. SEON                          HR=0.670  p=2.7951e-14  VIF=2.15
+   4. UPO_part2_tot                 HR=1.500  p=6.7385e-13  VIF=1.57
+   5. UPO_part3_tot                 HR=1.586  p=1.3429e-12  VIF=2.20
+   6. PIGD                          HR=0.526  p=1.3651e-12  VIF=1.38
+   7. HYON                          HR=1.459  p=2.1646e-11  VIF=2.10
+   8. MCI_15SD_MDScriteria          HR=1.385  p=1.0471e-07  VIF=1.74
+   9. sf36pf                        HR=0.713  p=3.0880e-07  VIF=3.20
+  10. IQCODE_mean                   HR=1.295  p=1.1196e-05  VIF=1.32
+  11. STROOPW                       HR=0.727  p=1.8251e-05  VIF=3.30
+  12. sf36pcs                       HR=0.750  p=8.2633e-05  VIF=3.03
+  13. URINDYS                       HR=1.312  p=8.8916e-05  VIF=1.10
+  14. age_at_visit                  HR=1.375  p=9.1571e-05  VIF=1.61
+  15. fss2                          HR=1.384  p=1.1962e-04  VIF=1.80
+  16. STROOPC                       HR=0.762  p=2.9789e-04  VIF=3.71
+  17. fss5                          HR=1.302  p=5.2011e-04  VIF=1.83
+  18. MMSE_tot                      HR=0.815  p=1.0395e-03  VIF=1.84
+  19. UPO_part4_tot                 HR=1.227  p=2.7387e-03  VIF=1.19
+  20. CONSTIPAT                     HR=1.201  p=8.9353e-03  VIF=1.24
+
+------------------------------------------------------------------------
+TOP-15  (final n = 15)
+------------------------------------------------------------------------
+   1. UPO27                         HR=1.494  p=3.8432e-18  VIF=1.73
+   2. UPO15                         HR=1.568  p=3.0046e-15  VIF=1.84
+   3. SEON                          HR=0.670  p=2.7951e-14  VIF=2.07
+   4. UPO_part2_tot                 HR=1.500  p=6.7385e-13  VIF=1.52
+   5. UPO_part3_tot                 HR=1.586  p=1.3429e-12  VIF=2.14
+   6. PIGD                          HR=0.526  p=1.3651e-12  VIF=1.38
+   7. HYON                          HR=1.459  p=2.1646e-11  VIF=2.06
+   8. MCI_15SD_MDScriteria          HR=1.385  p=1.0471e-07  VIF=1.43
+   9. sf36pf                        HR=0.713  p=3.0880e-07  VIF=3.13
+  10. IQCODE_mean                   HR=1.295  p=1.1196e-05  VIF=1.31
+  11. STROOPW                       HR=0.727  p=1.8251e-05  VIF=1.73
+  12. sf36pcs                       HR=0.750  p=8.2633e-05  VIF=2.98
+  13. URINDYS                       HR=1.312  p=8.8916e-05  VIF=1.10
+  14. age_at_visit                  HR=1.375  p=9.1571e-05  VIF=1.40
+  15. fss2                          HR=1.384  p=1.1962e-04  VIF=1.34
+
+------------------------------------------------------------------------
+TOP-10  (final n = 10)
+------------------------------------------------------------------------
+   1. UPO27                         HR=1.494  p=3.8432e-18  VIF=1.69
+   2. UPO15                         HR=1.568  p=3.0046e-15  VIF=1.79
+   3. SEON                          HR=0.670  p=2.7951e-14  VIF=2.07
+   4. UPO_part2_tot                 HR=1.500  p=6.7385e-13  VIF=1.47
+   5. UPO_part3_tot                 HR=1.586  p=1.3429e-12  VIF=2.14
+   6. PIGD                          HR=0.526  p=1.3651e-12  VIF=1.30
+   7. HYON                          HR=1.459  p=2.1646e-11  VIF=2.05
+   8. MCI_15SD_MDScriteria          HR=1.385  p=1.0471e-07  VIF=1.31
+   9. PHYFUN                        HR=0.704  p=2.1302e-07  VIF=1.24
+  10. IQCODE_mean                   HR=1.295  p=1.1196e-05  VIF=1.30
+
+========================================================================

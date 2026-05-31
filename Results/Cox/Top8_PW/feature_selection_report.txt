@@ -1,0 +1,36 @@
+========================================================================
+TOP-8 UNIVARIATE — FEATURE SELECTION REPORT
+========================================================================
+
+Selection criteria
+  Significant        : p < 0.05 in univariate Cox model
+  Correlation dedup  : |r| > 0.7 at V4 -> skip
+  Max features       : 8
+
+  Total features screened  : 886
+  Converged                : 559
+  Significant (p < 0.05)   : 274
+
+  Skipped (correlated with already-selected):
+    UPO27                           |r|=0.74  with PIGD_nevner
+    UPO29                           |r|=0.86  with PIGD_nevner
+    UPO15                           |r|=0.86  with PIGD_nevner
+    UPO30                           |r|=0.80  with PIGD_nevner
+    UPO_part2_tot                   |r|=0.72  with PIGD_nevner
+    PIGD_YN                         |r|=0.92  with PIGD
+    HYON                            |r|=0.70  with UPO_part3_tot
+
+========================================================================
+SELECTED FEATURES
+========================================================================
+
+   1. PIGD_nevner                     HR=1.697  p=7.1926e-37
+   2. UPO_part2_ON_tot                HR=1.549  p=1.8121e-15
+   3. SEON                            HR=0.670  p=2.7951e-14
+   4. UPO_part3_tot                   HR=1.586  p=1.3429e-12
+   5. PIGD                            HR=0.526  p=1.3651e-12
+   6. UPO_part1_tot                   HR=1.459  p=1.4371e-12
+   7. UPO11                           HR=1.515  p=5.2935e-11
+   8. UPO10                           HR=1.523  p=1.8029e-10
+
+========================================================================

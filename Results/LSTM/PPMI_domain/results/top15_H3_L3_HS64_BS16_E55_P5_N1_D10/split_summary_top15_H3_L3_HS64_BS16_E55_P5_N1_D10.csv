@@ -1,0 +1,5 @@
+Split,Patients,Samples,Fall samples,Non-fall samples,Positive rate
+Train,417,2665,542,2123,20.3%
+Validation,94,585,119,466,20.3%
+Test,90,620,116,504,18.7%
+Total,601,3870,777,3093,20.1%

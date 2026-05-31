@@ -1,0 +1,10 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['UPO27', 'UPO29', 'SEON', 'UPO30', 'UPO_part3_tot', 'PIGD', 'HYON', 'UPO26a']
+Pool (12): ['UPO31', 'UPO26b', 'UPO25a', 'UPO28', 'UPO24a', 'UPO23a', 'PIGD_ratio', 'UPO18', 'UPO24b', 'UPO23b', 'UPO25b', 'UPO22b']
+
+[iter 0] VIF: UPO29=2.40, UPO_part3_tot=2.33, SEON=2.09, HYON=2.07, UPO27=2.02, UPO30=1.89, UPO26a=1.49, PIGD=1.35
+[iter 0] All VIF < 6.0. Done.
+
+Final features (8): ['UPO27', 'UPO29', 'SEON', 'UPO30', 'UPO_part3_tot', 'PIGD', 'HYON', 'UPO26a']

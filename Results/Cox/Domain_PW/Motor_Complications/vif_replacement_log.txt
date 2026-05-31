@@ -1,0 +1,10 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['UPO_part4_tot', 'UPO36', 'UPO39', 'UPO37', 'UPO35', 'UPO38', 'UPO34', 'UPO32']
+Pool (1): ['UPO33']
+
+[iter 0] VIF: UPO_part4_tot=5.41, UPO39=2.78, UPO36=2.31, UPO32=1.74, UPO37=1.32, UPO35=1.27, UPO38=1.17, UPO34=1.15
+[iter 0] All VIF < 6.0. Done.
+
+Final features (8): ['UPO_part4_tot', 'UPO36', 'UPO39', 'UPO37', 'UPO35', 'UPO38', 'UPO34', 'UPO32']

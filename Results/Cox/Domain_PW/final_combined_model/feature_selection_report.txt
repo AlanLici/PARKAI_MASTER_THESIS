@@ -1,0 +1,81 @@
+========================================================================
+FINAL COMBINED MODEL — FEATURE SELECTION REPORT
+========================================================================
+
+Selection criteria
+  Included (significant) : feature with p < 0.05 in domain multivariable model
+  Included (marginal)    : best feature when domain C-index >= 0.75
+  Excluded               : domain C-index < 0.75 (no useful signal)
+
+========================================================================
+PER-DOMAIN DECISIONS
+========================================================================
+
+  Motor_Examination               [INCLUDED - significant]
+    Feature : PIGD
+    Reason  : p=0.0000 < 0.05 in domain multivariable model
+    HR=1.640  p=—  Domain C-index=0.734
+
+  ADL_Motor_Daily_Living          [INCLUDED - significant]
+    Feature : UPO_part2_ON_tot
+    Reason  : p=0.0001 < 0.05 in domain multivariable model
+    HR=1.409  p=0.0001  Domain C-index=0.724
+
+  Motor_Complications             [EXCLUDED]
+    Feature : —
+    Reason  : no significant features and C-index=0.587 < 0.75 threshold
+    HR=1.275  p=0.0699  Domain C-index=0.587
+
+  Non_Motor_Symptoms              [EXCLUDED]
+    Feature : —
+    Reason  : no significant features and C-index=0.621 < 0.75 threshold
+    HR=1.134  p=0.0865  Domain C-index=0.621
+
+  Cognition                       [INCLUDED - significant]
+    Feature : STROOPW
+    Reason  : p=0.0408 < 0.05 in domain multivariable model
+    HR=1.234  p=0.0408  Domain C-index=0.608
+
+  Mood_Psychiatric                [INCLUDED - significant]
+    Feature : HAD4
+    Reason  : p=0.0177 < 0.05 in domain multivariable model
+    HR=1.274  p=0.0177  Domain C-index=0.565
+
+  Sleep                           [INCLUDED - significant]
+    Feature : dayslee3
+    Reason  : p=0.0363 < 0.05 in domain multivariable model
+    HR=1.154  p=0.0363  Domain C-index=0.554
+
+  Autonomic                       [INCLUDED - significant]
+    Feature : URINDYS
+    Reason  : p=0.0024 < 0.05 in domain multivariable model
+    HR=1.265  p=0.0024  Domain C-index=0.619
+
+  Apathy_Fatigue                  [EXCLUDED]
+    Feature : —
+    Reason  : no significant features and C-index=0.633 < 0.75 threshold
+    HR=1.170  p=0.2004  Domain C-index=0.633
+
+  Quality_of_Life                 [INCLUDED - significant]
+    Feature : hl3g
+    Reason  : p=0.0208 < 0.05 in domain multivariable model
+    HR=1.264  p=0.0208  Domain C-index=0.652
+
+  Comorbidities                   [EXCLUDED]
+    Feature : —
+    Reason  : domain not in summary
+    HR=—  p=—  Domain C-index=—
+
+========================================================================
+FINAL FEATURE SET (entering combined model)
+========================================================================
+
+   1. PIGD
+   2. UPO_part2_ON_tot
+   3. STROOPW
+   4. HAD4
+   5. dayslee3
+   6. URINDYS
+   7. hl3g
+
+========================================================================

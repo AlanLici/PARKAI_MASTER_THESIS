@@ -1,0 +1,10 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['dayslee3', 'dayslee5', 'dayslee4', 'pdss_tot', 'pdss07', 'sleepqua', 'dayslee1', 'pdss02']
+Pool (12): ['pdss10', 'rlshi', 'pdss09', 'epwo3', 'epwo2', 'pdss05', 'rls3', 'epwo5', 'epwo7', 'epwo4', 'pdss13', 'pdss15']
+
+[iter 0] VIF: pdss_tot=1.94, sleepqua=1.60, pdss02=1.45, dayslee3=1.14, dayslee1=1.11, pdss07=1.08, dayslee5=1.07, dayslee4=1.05
+[iter 0] All VIF < 6.0. Done.
+
+Final features (8): ['dayslee3', 'dayslee5', 'dayslee4', 'pdss_tot', 'pdss07', 'sleepqua', 'dayslee1', 'pdss02']

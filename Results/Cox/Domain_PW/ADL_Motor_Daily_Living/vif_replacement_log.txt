@@ -1,0 +1,10 @@
+VIF REPLACEMENT LOG
+==================================================
+
+Initial (8): ['UPO_part2_ON_tot', 'UPO15', 'UPO_part2_tot', 'UPO11', 'UPO10', 'UPO9', 'UPO12', 'ADL8']
+Pool (12): ['UPO5', 'ADL5', 'UPO8', 'ADL4', 'ADL6', 'ADL3', 'ADL9', 'ADL_tot', 'ADL7', 'UPO7', 'ADL2', 'ADL10']
+
+[iter 0] VIF: UPO11=2.48, UPO10=2.43, UPO_part2_ON_tot=1.89, UPO9=1.84, UPO12=1.75, ADL8=1.67, UPO_part2_tot=1.61, UPO15=1.38
+[iter 0] All VIF < 6.0. Done.
+
+Final features (8): ['UPO_part2_ON_tot', 'UPO15', 'UPO_part2_tot', 'UPO11', 'UPO10', 'UPO9', 'UPO12', 'ADL8']
